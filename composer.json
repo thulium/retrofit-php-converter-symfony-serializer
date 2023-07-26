@@ -1,0 +1,34 @@
+{
+    "name": "thulium/retrofit-php-converter-symfony-serializer",
+    "description": "Retrofit for PHP - Symfony Serializer Converter",
+    "type": "library",
+    "keywords": [
+        "http",
+        "http-client",
+        "rest",
+        "rest-client",
+        "retrofit"
+    ],
+    "homepage": "https://github.com/thulium/retrofit-php",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/thulium/retrofit-php/issues"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.2",
+        "guzzlehttp/psr7": "^2.5",
+        "symfony/serializer": "^5.4 || ^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Retrofit\\Converter\\SymfonySerializer\\": ""
+        }
+    },
+    "suggest": {
+        "symfony/property-access": "^5.4 || ^6.3"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
